@@ -5,7 +5,7 @@
            fetch="https://github.com/llvm-mirror/" />
 
   <remote name="pfllvm"
-           fetch="https://github.com/PureFusionLLVM/" />
+           fetch="https://github.com/PureFusionLLVM-Clang/" />
 		   
   <remote name="pftc"
            fetch="https://github.com/PureFusionTC/" />
@@ -13,8 +13,8 @@
   <remote  name="sw"
            fetch="git://sourceware.org/git/" />
 
-  <default revision="master"
-           remote="llvm"
+  <default revision="release_70"
+           remote="pfllvm"
            sync-j="8"
            sync-c="true"
            sync-f="true" />

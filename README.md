@@ -16,7 +16,7 @@ you can use ./build.sh [arg1] [arg2]
 
 Sync Sources by using the following commands
 
-    $ repo init -u https://github.com/PureFusionLLVM/manifest.git -b master
+    $ repo init -u https://github.com/PureFusionLLVM-Clang/manifest.git -b release_70
 	
 	Then:
 
